@@ -1,0 +1,47 @@
+
+# 🐍 Arquivos e pastas do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+*.sqlite
+*.log
+
+# 📦 Ambientes Virtuais
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# 🛠️ Arquivos do Editor e do Sistema
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 📂 Arquivos de Configuração do Flet
+.flet/
+.flet_debug.log
+
+# 📂 Banco de dados e arquivos temporários
+vapo.db
+database/JSONs/*.json
+database/JSONs
+storage
+storage/data/
+storage/temp/
+
+# 📂 Arquivos de mídia 
+assets
+
+# 📂 JSONs dinâmicos (se forem apenas temporários)
+vapo/src/database/JSONs/*.json
+
+# 🚀 Dependências geradas automaticamente
+pip-wheel-metadata/
